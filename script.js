@@ -20,11 +20,11 @@ color1.addEventListener('input', changeBodyBackground);
 color2.addEventListener('input', changeBodyBackground);
 
 btn1.onclick = () => {
-    color1.style.display = 'block';
     color1.click();
+    color1.style.display = 'none';
 };
 
 btn2.onclick = () => {
-    color2.style.display = 'block';
     color2.click();
+    color2.style.display = 'none';
 };
