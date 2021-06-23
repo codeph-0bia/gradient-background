@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+#gradient {
+    background: linear-gradient(to right, rgb(12, 111, 224), rgb(0, 0, 0));
+}
+
+.color {
+    border-radius: 2em;
+    background-color: transparent;
+    margin: 0.4em;
+    border-color: transparent;
+}
